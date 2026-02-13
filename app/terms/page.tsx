@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms",
-  description: "Terms of use for ManCaveAcademy."
+  description: "Terms of use for Man Cave Academy."
 };
 
 export default function TermsPage() {

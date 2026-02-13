@@ -1,6 +1,6 @@
-# ManCaveAcademy
+# Man Cave Academy
 
-Production-ready Next.js 14 content site for the ManCaveAcademy brand.
+Production-ready Next.js 14 content site for the Man Cave Academy brand.
 
 ## Stack
 

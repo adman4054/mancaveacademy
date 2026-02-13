@@ -11,7 +11,7 @@ export default function StartHerePage() {
     <article className="max-w-3xl">
       <h1 className="text-3xl font-semibold text-workshop-50">Start Here</h1>
       <p className="mt-4 text-workshop-200">
-        ManCaveAcademy is built for operators who prefer practical systems over theory. Start with one lane, publish proof,
+        Man Cave Academy is built for operators who prefer practical systems over theory. Start with one lane, publish proof,
         and compound from there.
       </p>
       <ol className="mt-8 space-y-4 text-workshop-200">

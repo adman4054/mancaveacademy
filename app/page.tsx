@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <OrganizationJsonLd />
       <section className="rounded-2xl border border-workshop-800/60 bg-workshop-900/45 p-8 shadow-panel sm:p-12">
-        <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">ManCaveAcademy</p>
+        <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">Man Cave Academy</p>
         <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight text-workshop-50 sm:text-5xl">
           Build durable income with focused systems, not noisy hustle.
         </h1>

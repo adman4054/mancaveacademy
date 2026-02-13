@@ -6,22 +6,22 @@ import { SiteHeader } from "@/components/site-header";
 export const metadata: Metadata = {
   metadataBase: new URL("https://mancaveacademy.com"),
   title: {
-    default: "ManCaveAcademy",
-    template: "%s | ManCaveAcademy"
+    default: "Man Cave Academy",
+    template: "%s | Man Cave Academy"
   },
   description:
     "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income.",
   openGraph: {
-    title: "ManCaveAcademy",
+    title: "Man Cave Academy",
     description:
       "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income.",
     type: "website",
-    siteName: "ManCaveAcademy",
+    siteName: "Man Cave Academy",
     url: "https://mancaveacademy.com"
   },
   twitter: {
     card: "summary_large_image",
-    title: "ManCaveAcademy",
+    title: "Man Cave Academy",
     description:
       "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income."
   }

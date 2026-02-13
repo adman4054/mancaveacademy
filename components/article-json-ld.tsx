@@ -9,11 +9,11 @@ export function ArticleJsonLd({ post }: { post: ArticleSummary }) {
     datePublished: post.publishedAt,
     author: {
       "@type": "Organization",
-      name: "ManCaveAcademy"
+      name: "Man Cave Academy"
     },
     publisher: {
       "@type": "Organization",
-      name: "ManCaveAcademy"
+      name: "Man Cave Academy"
     },
     mainEntityOfPage: `https://mancaveacademy.com/articles/${post.slug}`
   };

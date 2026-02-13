@@ -3,7 +3,7 @@ import { NewsletterSignupPlaceholder } from "@/components/newsletter-signup-plac
 
 export const metadata: Metadata = {
   title: "Newsletter",
-  description: "Get tactical weekly notes from ManCaveAcademy."
+  description: "Get tactical weekly notes from Man Cave Academy."
 };
 
 export default function NewsletterPage() {

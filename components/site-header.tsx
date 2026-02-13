@@ -11,7 +11,7 @@ export function SiteHeader() {
   return (
     <header className="flex flex-wrap items-center justify-between gap-4 border-b border-workshop-800/80 pb-5">
       <Link href="/" className="text-xl font-semibold tracking-wide text-workshop-50 hover:text-cyan-300">
-        ManCaveAcademy
+        Man Cave Academy
       </Link>
       <nav className="flex flex-wrap gap-4 text-sm text-workshop-300">
         {links.map((item) => (
