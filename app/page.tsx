@@ -30,7 +30,7 @@ export default function HomePage() {
       <section className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
   {[
     { label: "AI Leverage", href: "/ai-leverage" },
-    { label: "Digital Assets", href: null },
+    { label: "Digital Assets", href: "/digital-assets" },
     { label: "Micro SaaS & Tools", href: null },
     { label: "Local Leverage", href: null },
     { label: "Financial Infrastructure", href: null },
