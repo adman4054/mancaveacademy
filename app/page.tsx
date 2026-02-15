@@ -9,24 +9,21 @@ export default function HomePage() {
       <section className="rounded-2xl border border-workshop-800/60 bg-workshop-900/45 p-8 shadow-panel sm:p-12">
         <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">Man Cave Academy</p>
         <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight text-workshop-50 sm:text-5xl">
-          Build durable income with focused systems, not noisy hustle.
+          Build durable income with focused systems—not noisy hustle.
+
+
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-workshop-200">
-          Tactical frameworks on AI leverage, digital assets, micro SaaS, local leverage, and financial infrastructure.
+          Practical playbooks for working adults who want to use AI and systems to create real side income—and eventually own sellable assets.
+
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/start-here"
-            className="rounded-md bg-cyan-400 px-5 py-2.5 text-sm font-semibold text-workshop-950 hover:bg-cyan-300"
-          >
-            Start Here
-          </Link>
-          <Link
-            href="/articles"
-            className="rounded-md border border-workshop-700 px-5 py-2.5 text-sm font-semibold text-workshop-100 hover:border-workshop-500"
-          >
-            Browse Articles
-          </Link>
+          <Link href="/start-here" className="btn-primary">
+  Start Here
+</Link>
+          <Link href="/newsletter" className="btn-secondary">
+  Get the Free Starter Guide
+</Link>
         </div>
       </section>
 
@@ -44,9 +41,20 @@ export default function HomePage() {
         ))}
       </section>
 
-      <section className="mt-12">
-        <NewsletterSignupPlaceholder />
-      </section>
+     <section className="mt-12 text-center">
+  <p className="text-lg text-gray-300 mb-4">
+    One useful brief each week: AI leverage, income plays, and asset-building strategy—without hype.
+  </p>
+
+  <a
+    href="/newsletter"
+    className="inline-block px-6 py-3 rounded-md font-medium transition border border-white/20 hover:border-white/40"
+  >
+    Get the Brief
+  </a>
+</section>
+
+
     </>
   );
 }
