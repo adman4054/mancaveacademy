@@ -28,18 +28,31 @@ export default function HomePage() {
       </section>
 
       <section className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {[
-          "AI Leverage",
-          "Digital Assets",
-          "Micro SaaS & Tools",
-          "Local Leverage",
-          "Financial Infrastructure"
-        ].map((category) => (
-          <div key={category} className="rounded-xl border border-workshop-800 bg-workshop-900/30 p-5">
-            <p className="text-sm font-medium text-workshop-100">{category}</p>
-          </div>
-        ))}
-      </section>
+  {[
+    { label: "AI Leverage", href: "/ai-leverage" },
+    { label: "Digital Assets", href: null },
+    { label: "Micro SaaS & Tools", href: null },
+    { label: "Local Leverage", href: null },
+    { label: "Financial Infrastructure", href: null },
+  ].map((item) => (
+    <div
+      key={item.label}
+      className="rounded-lg border border-white/10 p-5 hover:border-white/20 transition"
+    >
+      {item.href ? (
+        <Link
+          href={item.href}
+          className="text-lg font-semibold underline underline-offset-4 hover:opacity-100"
+        >
+          {item.label}
+        </Link>
+      ) : (
+        <h3 className="text-lg font-semibold">{item.label}</h3>
+      )}
+    </div>
+  ))}
+</section>
+
 
      <section className="mt-12 text-center">
   <p className="text-lg text-gray-300 mb-4">
