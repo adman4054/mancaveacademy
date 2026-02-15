@@ -66,6 +66,62 @@ export default function HomePage() {
     Get the Brief
   </a>
 </section>
+<section className="mt-10 rounded-xl border border-white/10 p-6">
+  <h2 className="text-xl font-semibold">Start Here Paths</h2>
+  <p className="mt-2 opacity-80">
+    Pick a path and start building. These hubs are designed to guide you in the right direction.
+  </p>
+
+  <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    <Link
+      href="/ai-leverage"
+      className="rounded-lg border border-white/10 p-4 hover:border-white/20 transition"
+    >
+      <div className="font-semibold">AI Leverage</div>
+      <div className="mt-1 text-sm opacity-80">Use AI to save time and create income systems.</div>
+    </Link>
+
+    <Link
+      href="/digital-assets"
+      className="rounded-lg border border-white/10 p-4 hover:border-white/20 transition"
+    >
+      <div className="font-semibold">Digital Assets</div>
+      <div className="mt-1 text-sm opacity-80">Build properties that compound and can be sold.</div>
+    </Link>
+
+    <Link
+      href="/local-leverage"
+      className="rounded-lg border border-white/10 p-4 hover:border-white/20 transition"
+    >
+      <div className="font-semibold">Local Leverage</div>
+      <div className="mt-1 text-sm opacity-80">Simple service + systems for fast cash flow.</div>
+    </Link>
+
+    <Link
+      href="/micro-saas-tools"
+      className="rounded-lg border border-white/10 p-4 hover:border-white/20 transition"
+    >
+      <div className="font-semibold">Micro SaaS & Tools</div>
+      <div className="mt-1 text-sm opacity-80">Validate fast, ship simple, grow recurring revenue.</div>
+    </Link>
+
+    <Link
+      href="/financial-infrastructure"
+      className="rounded-lg border border-white/10 p-4 hover:border-white/20 transition"
+    >
+      <div className="font-semibold">Financial Infrastructure</div>
+      <div className="mt-1 text-sm opacity-80">Cash buffer, recurring revenue, asset-first planning.</div>
+    </Link>
+
+    <Link
+      href="/start-here"
+      className="rounded-lg border border-white/10 p-4 hover:border-white/20 transition"
+    >
+      <div className="font-semibold">Start Here</div>
+      <div className="mt-1 text-sm opacity-80">Not sure? Choose the right track in 60 seconds.</div>
+    </Link>
+  </div>
+</section>
 
 
     </>
