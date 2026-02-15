@@ -53,10 +53,12 @@ const tracks: Track[] = [
       "You want a repeatable system, not freelancing chaos",
     ],
     nextSteps: [
-      { label: "Local Leverage — Start here", href: "/articles?category=local-leverage" },
+      { label: "Local Leverage — Start here", href: "/local-leverage" },
+
       { label: "Sales & Lead Flow", href: "/articles?tag=lead-gen" },
     ],
-    cta: { label: "Start with service leverage", href: "/articles?category=local-leverage" },
+    cta: { label: "Start with service leverage", href: "/local-leverage" },
+
   },
 ];
 

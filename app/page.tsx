@@ -31,9 +31,9 @@ export default function HomePage() {
   {[
     { label: "AI Leverage", href: "/ai-leverage" },
     { label: "Digital Assets", href: "/digital-assets" },
-    { label: "Micro SaaS & Tools", href: null },
+    { label: "Micro SaaS & Tools", href: "/micro-saas-tools" },
     { label: "Local Leverage", href: "/local-leverage" },
-    { label: "Financial Infrastructure", href: null },
+    { label: "Financial Infrastructure", href: "/financial-infrastructure" },
   ].map((item) => (
     <div
       key={item.label}
