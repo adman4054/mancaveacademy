@@ -25,9 +25,10 @@ const tracks: Track[] = [
       "You want practical, step-by-step use cases",
     ],
     nextSteps: [
-      { label: "AI Leverage (coming soon)", href: "/articles?category=ai-leverage" },
-      { label: "Tools & workflows (coming soon)", href: "/articles?tag=workflows" },
-    ],
+  { label: "AI Leverage — Start here", href: "/articles?category=ai-leverage" },
+  { label: "Tools & Workflows", href: "/articles?tag=workflows" },
+],
+
     cta: { label: "Start with AI leverage", href: "/articles?category=ai-leverage" },
   },
   {
@@ -39,9 +40,12 @@ const tracks: Track[] = [
       "You want something that compounds over time",
     ],
     nextSteps: [
-      { label: "Digital Assets (coming soon)", href: "/articles?category=digital-assets" },
-      { label: "Monetization basics (coming soon)", href: "/articles?tag=monetization" },
-    ],
+  { label: "Digital Assets — Start here", href: "/articles?category=digital-assets" },
+  { label: "Monetization Basics", href: "/articles?tag=monetization" },
+],
+
+
+
     cta: { label: "Start building an asset", href: "/articles?category=digital-assets" },
   },
   {
@@ -53,9 +57,10 @@ const tracks: Track[] = [
       "You want a repeatable system, not freelancing chaos",
     ],
     nextSteps: [
-      { label: "Local Leverage (coming soon)", href: "/articles?category=local-leverage" },
-      { label: "Sales & lead flow (coming soon)", href: "/articles?tag=lead-gen" },
-    ],
+  { label: "Local Leverage — Start here", href: "/articles?category=local-leverage" },
+  { label: "Sales & Lead Flow", href: "/articles?tag=lead-gen" },
+],
+
     cta: { label: "Start with service leverage", href: "/articles?category=local-leverage" },
   },
 ];
