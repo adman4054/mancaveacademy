@@ -157,6 +157,41 @@ export default function StartHerePage() {
           </Link>
         </div>
       </section>
+      <section className="mt-8 rounded-xl border border-white/10 p-6">
+  <h2 className="text-xl font-semibold">More paths</h2>
+  <p className="mt-2 opacity-80">
+    If you’re already building, these are strong next steps.
+  </p>
+
+  <div className="mt-5 grid gap-4 md:grid-cols-2">
+    <div className="rounded-lg border border-white/10 p-5 hover:border-white/20 transition">
+      <h3 className="font-semibold">Micro SaaS & Tools</h3>
+      <p className="mt-2 text-sm opacity-80">
+        Build small tools that solve one problem well. Validate fast, ship simple, grow recurring revenue.
+      </p>
+      <Link
+        href="/micro-saas-tools"
+        className="mt-3 inline-block underline underline-offset-4 opacity-90 hover:opacity-100"
+      >
+        Explore Micro SaaS & Tools →
+      </Link>
+    </div>
+
+    <div className="rounded-lg border border-white/10 p-5 hover:border-white/20 transition">
+      <h3 className="font-semibold">Financial Infrastructure</h3>
+      <p className="mt-2 text-sm opacity-80">
+        Build stability with systems: cash buffer, recurring revenue, lower burn, asset-first planning.
+      </p>
+      <Link
+        href="/financial-infrastructure"
+        className="mt-3 inline-block underline underline-offset-4 opacity-90 hover:opacity-100"
+      >
+        Build your financial infrastructure →
+      </Link>
+    </div>
+  </div>
+</section>
+
     </main>
   );
 }
