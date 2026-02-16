@@ -8,24 +8,36 @@ export default function HomePage() {
       <OrganizationJsonLd />
       <section className="rounded-2xl border border-workshop-800/60 bg-workshop-900/45 p-8 shadow-panel sm:p-12">
         <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">Man Cave Academy</p>
-        <h1 className="mt-4 max-w-3xl text-4xl font-semibold leading-tight text-workshop-50 sm:text-5xl">
-          Build durable income with focused systems—not noisy hustle.
-
-
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg text-workshop-200">
-          Practical playbooks for working adults who want to use AI and systems to create real side income—and eventually own sellable assets.
-
-        </p>
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/start-here" className="btn-primary">
-  Start Here
-</Link>
-          <Link href="/newsletter" className="btn-secondary">
-  Get the Free Starter Guide
-</Link>
-        </div>
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
+  Build durable income with focused systems.
+</h1>
+        <p className="mt-6 text-lg opacity-80 max-w-2xl">
+  Man Cave Academy is for working adults who want to use AI, digital assets,
+  simple services, and financial infrastructure to create real income —
+  without hype or hustle culture.
+</p>
+      <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
+  <Link
+    href="/start-here"
+    className="inline-flex items-center justify-center rounded-md border border-white/20 px-6 py-3 font-medium hover:border-white/40 transition"
+  >
+    Start Here
+  </Link>
+          <Link
+    href="/newsletter"
+    className="inline-flex items-center justify-center rounded-md border border-white/10 px-6 py-3 font-medium hover:border-white/25 transition opacity-90"
+  >
+    Get the Brief
+  </Link>
+</div>
       </section>
+      <section className="mt-16">
+  <h2 className="text-2xl font-semibold">The 5-Part Income System</h2>
+  <p className="mt-3 opacity-80 max-w-3xl">
+    Durable income isn’t one tactic. It’s a system built from leverage,
+    assets, services, tools, and financial stability.
+  </p>
+</section>
 
       <section className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
   {[
@@ -51,6 +63,15 @@ export default function HomePage() {
       )}
     </div>
   ))}
+</section>
+<section className="mt-16 rounded-xl border border-white/10 p-6">
+  <h2 className="text-xl font-semibold">Who This Is For</h2>
+  <ul className="mt-4 space-y-3 opacity-85">
+    <li>• Professionals who want more control over income</li>
+    <li>• Operators who prefer systems over motivation</li>
+    <li>• Builders who want assets, not endless freelancing</li>
+    <li>• People serious about financial stability</li>
+  </ul>
 </section>
 
 
@@ -119,6 +140,23 @@ export default function HomePage() {
     >
       <div className="font-semibold">Start Here</div>
       <div className="mt-1 text-sm opacity-80">Not sure? Choose the right track in 60 seconds.</div>
+    </Link>
+  </div>
+</section>
+<section className="mt-16 text-center">
+  <h2 className="text-2xl font-semibold">
+    Start building income that lasts.
+  </h2>
+  <p className="mt-3 opacity-80">
+    One useful brief each week. Practical plays. No hype.
+  </p>
+
+  <div className="mt-6">
+    <Link
+      href="/newsletter"
+      className="inline-flex items-center justify-center rounded-md border border-white/20 px-6 py-3 font-medium hover:border-white/40 transition"
+    >
+      Get the Brief
     </Link>
   </div>
 </section>
