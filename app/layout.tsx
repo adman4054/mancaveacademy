@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
@@ -50,6 +52,21 @@ export default function RootLayout({
           <main className="mt-12 flex-1">{children}</main>
           <SiteFooter />
         </div>
+        <Script
+  src={`https://www.googletagmanager.com/gtag/js?id=G-877PTDTBS9`}
+  strategy="afterInteractive"
+/>
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      page_path: window.location.pathname,
+    });
+  `}
+</Script>
+
       </body>
     </html>
   );
