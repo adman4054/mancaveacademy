@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mancaveacademy.com"),
   title: {
     default: "Man Cave Academy",
-    template: "%s | Man Cave Academy"
+    template: "%s | Man Cave Academy",
   },
   description:
     "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income.",
@@ -15,20 +15,30 @@ export const metadata: Metadata = {
     title: "Man Cave Academy",
     description:
       "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income.",
-    type: "website",
+    url: "https://mancaveacademy.com",
     siteName: "Man Cave Academy",
-    url: "https://mancaveacademy.com"
+    type: "website",
+    images: [
+      {
+        url: "/api/og?title=Build%20durable%20income%20with%20focused%20systems.",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Man Cave Academy",
     description:
-      "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income."
-  }
+      "Actionable playbooks for builders turning AI leverage, digital assets, and local systems into resilient income.",
+    images: [
+      "/api/og?title=Build%20durable%20income%20with%20focused%20systems.",
+    ],
+  },
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -44,5 +54,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-

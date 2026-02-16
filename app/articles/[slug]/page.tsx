@@ -15,9 +15,11 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const post = getArticleBySlug(params.slug);
 
-  if (!post) {
-    return {};
-  }
+  if (!post) return {};
+
+  const og = `/api/og?title=${encodeURIComponent(post.title)}&subtitle=${encodeURIComponent(
+    post.excerpt
+  )}&kicker=${encodeURIComponent("MAN CAVE ACADEMY")}`;
 
   return {
     title: post.title,
@@ -26,9 +28,17 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       type: "article",
       title: post.title,
       description: post.excerpt,
+      url: `/articles/${post.slug}`,
       publishedTime: post.publishedAt,
-      tags: post.categories
-    }
+      tags: post.categories,
+      images: [{ url: og, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [og],
+    },
   };
 }
 
