@@ -16,11 +16,11 @@ export default function NewsletterPage() {
       </p>
 
       <form
-        action="https://app.kit.com/forms/9094720/subscriptions"
-        method="post"
-        acceptCharset="utf-8"
-        className="mt-6 flex flex-col gap-3"
-      >
+  action="https://app.kit.com/forms/9094720/subscriptions"
+  method="post"
+  acceptCharset="utf-8"
+  target="_blank"
+>
         <label className="text-sm text-workshop-200" htmlFor="email_address">
           Email address
         </label>
